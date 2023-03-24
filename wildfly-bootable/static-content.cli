@@ -1,0 +1,2 @@
+/subsystem=undertow/configuration=handler/file=public-content:add(path=${webContentDirectory})
+/subsystem=undertow/server=default-server/host=default-host/location="/web":add(handler="public-content")
