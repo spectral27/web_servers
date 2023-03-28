@@ -9,7 +9,7 @@ public class RecordRepository {
 
     public static void init() throws SQLException {
         DriverManager.getConnection(
-                "jdbc:h2:mem:testdatabase;INIT=runscript from 'classpath:create.sql'",
+                "jdbc:h2:mem:testdatabase;INIT=runscript from 'classpath:init.sql'",
                 "username",
                 "password"
         );

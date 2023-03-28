@@ -38,6 +38,6 @@ public class Main {
 
 
         // TODO
-        // repository controller maven shade
+        // repository controller
     }
 }
